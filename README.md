@@ -9,10 +9,23 @@
 - 双击清除数据
 
 - 自由拖拽位置
-  
-  
 
-FPSMonitor APIS
+
+##### 添加依赖
+
+```gradle
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+  implementation 'com.github.erleizh:FrameRateMonitor:1.0.0'
+}
+```
+
+
+
+##### FPSMonitor APIS
 
 ```textile
 FPSMonitor#getInstance
@@ -31,3 +44,8 @@ FPSMonitor#getRunningTimeInMillis
 FPSMonitor#clear
 FPSMonitor#hide
 ```
+
+
+
+
+
